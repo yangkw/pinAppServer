@@ -13,7 +13,7 @@
     <!--<property name="APP_NAME" value="@app.name@"/>-->
     <contextName>pin</contextName>
     <property name="APP_NAME" value="pin"/>
-    <property name="LOG_PATH" value="/data/logs/pin"/>
+<!--    <property name="LOG_PATH" value="/data/logs/pin"/>-->
 
     <property name="FILE_LOG_PATTERN"
               value="[%d{yyyy-MM-dd HH:mm:ss.SSS}][${APP_NAME}]%highlight([%level])[%logger{39}.%M:%L]%cyan([%X{logId:-}])[%X{token:-}] - %msg%n"/>
